@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+}
+        @font-face {
+            font-family:'school';
+            src: url('fonts/KGPrimaryLinedNOSPACE.ttf') format ('truetype'), 
+            url('fonts/KGPrimaryPenmanship.ttf') format ('truetype'),
+            url('fonts/KGPrimaryPenmanship2.ttf') format ('truetype'),
+            url('fonts/KGPrimaryPenmanshipAlt.ttf') format('truetype'),
+            url('fonts/KGPrimaryPenmanshipLined.ttf') format('truetype');
+
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                opentype (otf)
+                truetype (ttf)
+                embedded-opentype
+                truetype-aat (apple advanced typography)
+                svg
+            */
+        }
+body{
+    background-color: rgb(127, 127, 185);
+}
+
+
+    h1{
+        font-family:'school';
+        font-size: 3em;
+    }
